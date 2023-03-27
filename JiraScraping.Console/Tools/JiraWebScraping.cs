@@ -27,7 +27,7 @@ public class JiraWebScraping : IDisposable
 
     private readonly string[] _projects =
     {
-        "DCP", "ESnR", "BSnR", "TM", "CT", "C360", "CCM", "EnS"
+        "DCP", "ESnR", "BSnR", "TM", "CT", "C360", "CCM", "EnS", "MAD"
     };
 
     private readonly IWebDriver _driver;
